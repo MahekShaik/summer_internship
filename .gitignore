@@ -1,49 +1,24 @@
-# =========================
-# Python
-# =========================
+# Python cache
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
-# =========================
-# Virtual environments
-# =========================
+# Virtual environments only
 venv/
 env/
-yoloenv/
 .venv/
+yoloenv/
 labelenv/
 label_env/
 
-# =========================
-# YOLO / Ultralytics outputs
-# =========================
-runs/
-datasets/
-*.pt
-*.onnx
-*.engine
+# IDE files
+.vscode/
+.idea/
 
-# =========================
-# Logs / outputs
-# =========================
-*.log
-
-# =========================
 # OS files
-# =========================
 .DS_Store
 Thumbs.db
 
-# =========================
-# Jupyter Notebook
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# Large / test media files (optional)
-# =========================
-bus.jpg
-*.mp4
-*.avi
+# Temporary files
+*.log
+*.tmp
+$null
