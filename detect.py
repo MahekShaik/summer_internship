@@ -1,9 +1,8 @@
 from ultralytics import YOLO
 
-# Load pretrained YOLO model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolov8n.pt")
 
-# Run object detection on sample image
-results = model("https://ultralytics.com/images/bus.jpg", save=True)
-
-print("Detection completed!")
+model.predict(
+    source="videos/raw.mp4",
+    save=True
+)

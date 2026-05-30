@@ -1,0 +1,9 @@
+path: C:/Users/tamta/OneDrive/Desktop/summer_internship/week5/dataset
+
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: healthy_crop
+  1: stressed_crop

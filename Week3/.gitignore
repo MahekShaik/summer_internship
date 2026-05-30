@@ -1,0 +1,5 @@
+venv/
+runs/
+*.pt
+bus.jpg
+__pycache__/

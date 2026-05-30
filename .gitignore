@@ -1,5 +1,49 @@
-venv/
-runs/
-*.pt
-bus.jpg
+# =========================
+# Python
+# =========================
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+yoloenv/
+.venv/
+labelenv/
+label_env/
+
+# =========================
+# YOLO / Ultralytics outputs
+# =========================
+runs/
+datasets/
+*.pt
+*.onnx
+*.engine
+
+# =========================
+# Logs / outputs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Large / test media files (optional)
+# =========================
+bus.jpg
+*.mp4
+*.avi
