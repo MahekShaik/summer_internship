@@ -1,0 +1,7 @@
+path: .
+train: images/train
+val: images/val
+
+names:
+  0: healthy_crop
+  1: stressed_crop
